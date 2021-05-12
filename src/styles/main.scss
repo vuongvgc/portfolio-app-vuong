@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import "variables";
+@import "mixins";
+@import "button";
+@import "switch_toggler";
+@import "body";
+@import "navbar-and-footer";
+
+//Main
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: $default-font-size;
+    font-family: $main-front;
+    color: $font-color;
+    background-color: $main-color;
+}
