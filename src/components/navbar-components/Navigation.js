@@ -1,7 +1,15 @@
-import React, { Component } from "react";
-
-export default class Navigation extends Component {
-  render() {
-    return <div>Navigation</div>;
-  }
+import { useContext } from "react";
+import Context from "../../context";
+import NavLink from "./NavLink";
+export default function Navigation() {
+  const { textContent } = useContext(Context);
+  return (
+    <span>
+      <span>
+        <NavLink title={textContent.navigation.home} link="/" />
+        <NavLink title={textContent.navigation.portfolio} link="/portfolio" />
+        <NavLink title={textContent.navigation.resume} link="/resume" />
+      </span>
+    </span>
+  );
 }
