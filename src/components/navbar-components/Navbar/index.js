@@ -7,7 +7,7 @@ export default class Navbar extends Component {
     return (
       <div className="navbar">
         <LanguageToggler />
-        <SocialMediaIcons SocialMediaIconsLandscape="social-media-icons-landscape" />
+        <SocialMediaIcons socialMediaIconLandscape="social-media-icons-landscape" />
         <Navigation />
       </div>
     );

@@ -1,43 +1,57 @@
 import React from "react";
-
-export default function SocialMediaIcons() {
+import SocialMediaIcon from "./SocialMediaIcon";
+export default function SocialMediaIcons(props) {
   const socialMediaIconsInfo = [
     {
-      href: "mailto:konstantin.krumin@gmail.com",
+      href: "mailto:vuongvgc@gmail.com",
       extraClass: "",
       iconPrefix: "far",
       iconName: "envelope",
     },
     {
-      href: "https://www.linkedin.com/in/konstantinkrumin/",
+      href: "https://www.linkedin.com/in/vuongvgc/",
       extraClass: "",
       iconPrefix: "fab",
       iconName: "linkedin",
     },
     {
-      href: "https://twitter.com/KonstantinIK1",
+      href: "https://www.facebook.com/vuongvgc/",
       extraClass: "",
       iconPrefix: "fab",
-      iconName: "twitter",
+      iconName: "facebook",
     },
     {
-      href: "https://github.com/konstantinkrumin",
+      href: "https://github.com/vuongvgc",
       extraClass: "",
       iconPrefix: "fab",
       iconName: "github",
     },
     {
-      href: "https://codepen.io/konstantinkrumin",
+      href: "https://codepen.io/Crisvuong",
       extraClass: "hide-sm-screen",
       iconPrefix: "fab",
       iconName: "codepen",
     },
     {
-      href: "https://www.freecodecamp.org/konstantin.krumin",
+      href: "https://www.freecodecamp.org/vuongvgc",
       extraClass: "hide-sm-screen",
       iconPrefix: "fab",
       iconName: "free-code-camp",
     },
   ];
-  return <div></div>;
+  return (
+    <div className={`profile_links_section ${props.socialMediaIconLandscape} `}>
+      {socialMediaIconsInfo.map((item, index) => {
+        return (
+          <SocialMediaIcon
+            key={index}
+            href={item.href}
+            extraClass={item.extraClass}
+            iconPrefix={item.iconPrefix}
+            iconName={item.iconName}
+          />
+        );
+      })}
+    </div>
+  );
 }

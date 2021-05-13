@@ -29,6 +29,7 @@ import {
   faGithub,
   faCodepen,
   faFreeCodeCamp,
+  faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 
 library.add(
@@ -55,5 +56,6 @@ library.add(
   faTwitter,
   faGithub,
   faCodepen,
-  faFreeCodeCamp
+  faFreeCodeCamp,
+  faFacebook
 );
