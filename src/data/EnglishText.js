@@ -14,7 +14,7 @@ const englishText = {
   },
   home: {
     description:
-      "Hi! My name is Konstantin Krumin and I am a Front-End Web Developer.",
+      "Hi! My name is Do Minh Vuong and I am a Front-End Web Developer.",
   },
   portfolio: [
     { key: "calculator", title: "Calculator" },
