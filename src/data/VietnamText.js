@@ -8,9 +8,9 @@ let vietnamText = {
     cv: "https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/static/CV_Konstantin_Krumin_2.pdf",
   },
   navigation: {
-    home: "Про меня",
-    portfolio: "Портфолио",
-    resume: "Резюме",
+    home: "Trang Chủ",
+    portfolio: "Dự Án",
+    resume: "Sơ yếu lý lịch",
   },
   home: {
     description:
