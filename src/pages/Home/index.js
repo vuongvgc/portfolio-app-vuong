@@ -1,7 +1,9 @@
-import React, { Component } from "react";
-
-export default class Home extends Component {
-  render() {
-    return <div>Home</div>;
-  }
+import React from "react";
+import HeroSection from "../../components/home-components/HeroSection";
+export default function Home() {
+  return (
+    <div className="main-section">
+      <HeroSection />
+    </div>
+  );
 }

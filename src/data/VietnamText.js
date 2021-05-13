@@ -14,7 +14,7 @@ let vietnamText = {
   },
   home: {
     description:
-      "Привет! Меня зовут Константин Крумин и я Front-End Разработчик.",
+      "Xin Chào! Tôi là Đỗ Minh Vương và tôi là Nhà phát triển Web Front-End.",
   },
   portfolio: [
     { key: "calculator", title: "Калькулятор" },

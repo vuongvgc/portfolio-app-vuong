@@ -1,0 +1,52 @@
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-content-container {
+    width: 65%;
+    max-width: 500px;
+    max-height: 90vh;
+    background-color: $secondary-color;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    text-align: center;
+    padding: 2rem 0 0 0;
+}
+
+.hero-description {
+    padding: 1rem 3rem;
+}
+
+.hero-description-text {
+    font-size: $font-size-xl;
+    text-align: center;
+}
+
+.hero-tech-stack-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    justify-content: center;
+    width: 70%;
+    padding-bottom: 2rem;
+
+
+}
+
+.tech-stack-item {
+    margin: 5px;
+    text-align: center;
+}
+
+.tech-stack-item-subtext {
+    font-size: $font-size-sm;
+    margin-top: 5px;
+}
