@@ -4,8 +4,8 @@ import addCommonParameters from "../helpers/addCommonParameters";
 let vietnamText = {
   downloads: {
     resume:
-      "https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/static/Резюме_Константин_Крумин.pdf",
-    cv: "https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/static/CV_Konstantin_Krumin_2.pdf",
+      "https://github.com/vuongvgc/portfolio-app-vuong/blob/master/src/static/Resume_Do_Minh_Vuong.pdf",
+    cv: "https://github.com/vuongvgc/portfolio-app-vuong/blob/master/src/static/Resume_Do_Minh_Vuong.pdf",
   },
   navigation: {
     home: "Trang Chủ",
