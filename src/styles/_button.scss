@@ -1,6 +1,8 @@
 @import "variables";
+@import "mixins";
 
-.button {
+.button,
+.button-filled {
     color: $font-color;
     font-family: $main-front;
     outline: none;
@@ -10,4 +12,9 @@
     :focus {
         color: $accent-color;
     }
+}
+
+.button-filled {
+    @include button-setup($secondary-color, 3px, 5px, 5px, $secondary-color, 5px);
+    font-size: $font-size-sm;
 }

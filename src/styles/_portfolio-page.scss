@@ -1,0 +1,36 @@
+@import "variables";
+
+.portfolio-tiles-container {
+    width: 90%;
+    max-width: 700px;
+    max-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 5px;
+}
+
+.project-tile {
+    font-size: $font-size-sm;
+    text-align: center;
+    height: 130px;
+}
+
+.project-tile:nth-last-child(-n + 1) {
+    margin-bottom: $default-footer-height + 1vh;
+}
+
+.tile-title-section {
+    height: 25%;
+    padding: 10px 0;
+    background-color: $secondary-color;
+    border: 10px 10px 0 0;
+}
+
+.tile-preview-section {
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $secondary-color;
+    border-radius: 0 0 10px 10px;
+}
