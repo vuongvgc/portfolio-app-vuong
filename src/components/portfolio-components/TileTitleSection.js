@@ -1,7 +1,7 @@
-export default function TileTitleSection() {
+export default function TileTitleSection({ title }) {
   return (
     <div className="tile-title-section">
-      <p>Title Tile</p>
+      <p>{title}</p>
     </div>
   );
 }
