@@ -92,8 +92,7 @@ const commonContent = {
       imagePreview:
         "https://github.com/vuongvgc/portfolio-app-vuong/blob/master/src/images/portfolio-preview/staffManagement.PNG?raw=true",
       links: {
-        liveProject:
-          "https://konstantinkrumin.github.io/dataviz-treemap-diagram-d3/",
+        liveProject: "https://quan-ly-nhan-vien-omega.vercel.app/",
         codeSource: "https://github.com/vuongvgc/QuanLyNhanVien",
       },
     },
