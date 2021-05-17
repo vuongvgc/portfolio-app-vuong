@@ -2,7 +2,7 @@ import ResumeTextContainerLeft from "./ResumeTextContainerLeft";
 import ResumeTextContainerRight from "./ResumeTextContainerRight";
 export default function ResumeTextContainer() {
   return (
-    <div>
+    <div className="resume-text-container-internal">
       <ResumeTextContainerLeft />
       <ResumeTextContainerRight />
     </div>

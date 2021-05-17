@@ -5,7 +5,7 @@ const englishText = {
   downloads: {
     resume:
       "https://github.com/vuongvgc/portfolio-app-vuong/blob/master/src/static/Resume_Do_Minh_Vuong.pdf",
-    cv: "https://github.com/vuongvgc/portfolio-app-vuong/blob/master/src/static/Resume_Do_Minh_Vuong.pdf",
+    cv: "https://github.com/vuongvgc",
   },
   navigation: {
     home: "Home",
@@ -41,13 +41,13 @@ const englishText = {
   resume: {
     education: {
       title: "Education",
-      degree: "Front-End Web Developer Professionaln",
+      degree: "Front-End Web Developer Professional",
       university: "Cybersoft Academy",
       gpa: "Cumulative GPA : 3.71 / 4.30",
-      years: "[ 2020 – 20 ]",
+      years: "[ 2020 – 2021]",
     },
     workExperience: {
-      title: "Self-learning FrontEnd Developer",
+      title: "Experience",
       jobPosition: "Front-End Web",
       jobPlace: "MNP (Calgary, AB)",
       years: "[ 2017 - 2019 ]",
