@@ -41,14 +41,14 @@ const englishText = {
   resume: {
     education: {
       title: "Education",
-      degree: "Bachelor of Arts, Business Administration",
-      university: "Brandon University (Brandon, MB)",
+      degree: "Front-End Web Developer Professionaln",
+      university: "Cybersoft Academy",
       gpa: "Cumulative GPA : 3.71 / 4.30",
-      years: "[ 2013 – 2017 ]",
+      years: "[ 2020 – 20 ]",
     },
     workExperience: {
-      title: "Work",
-      jobPosition: "Application Specialist (CaseWare)",
+      title: "Self-learning FrontEnd Developer",
+      jobPosition: "Front-End Web",
       jobPlace: "MNP (Calgary, AB)",
       years: "[ 2017 - 2019 ]",
     },
