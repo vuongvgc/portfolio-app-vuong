@@ -12,9 +12,9 @@ export default function ResumeTextContainerRight() {
         <ResumeTextRight text={textContent.resume.education.years} />
       </div>
       <div className="resume-right-side-item-sm">
-        <ResumeTextRight text={textContent.resume.workExperience.jobPosition} />
-        <ResumeTextRight text={textContent.resume.workExperience.jobPlace} />
-        <ResumeTextRight text={textContent.resume.workExperience.years} />
+        <ResumeTextRight text={textContent.resume.selfLearning.description} />
+        <ResumeTextRight text={textContent.resume.selfLearning.place} />
+        <ResumeTextRight text={textContent.resume.selfLearning.years} />
       </div>
       <div className="resume-right-side-item-lg stacklist ">
         {textContent.resume.stack.stackList.map((item, index) => {
