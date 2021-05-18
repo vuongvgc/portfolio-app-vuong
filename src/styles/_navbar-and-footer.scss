@@ -38,6 +38,38 @@
     text-decoration: none;
 }
 
-.nav-small-screen {
+.nav-small-screens {
     display: none;
+}
+
+.nav-links-sm-screen {
+    list-style-type: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    margin-top: $large-nav-height;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.95;
+    background-color: $secondary-color;
+    transition: all .3s linear;
+}
+
+.nav-link-sm-item {
+    height: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    transition: all .3s linear;
+}
+
+.show-nav {
+    height: $large-body-height;
 }

@@ -4,7 +4,7 @@ export default function LanguageToggle() {
   const { handleSwitch } = useContext(Context);
 
   return (
-    <div>
+    <div className="toggle-box">
       EN{" "}
       <label className="switch">
         <input type="checkbox" onClick={handleSwitch} />
