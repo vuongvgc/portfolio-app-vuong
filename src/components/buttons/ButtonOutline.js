@@ -5,10 +5,9 @@ export default function ButtonOutline({ title, icon, isCV }) {
   return (
     <a
       type="button"
+      target="_blank"
       rel="noopener noreferrer"
-      href={
-        isCV === true ? textContent.downloads.CV : textContent.downloads.resume
-      }
+      href={isCV ? textContent.downloads.cv : textContent.downloads.resume}
       className="button-outline navlink "
     >
       <FontAwesomeIcon icon={icon} /> {title}
