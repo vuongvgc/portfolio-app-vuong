@@ -14,9 +14,9 @@ export default function ResumeTextContainerLeft() {
       </div>
       <div className="resume-left-side-item-sm">
         <ResumeTextLeft
-          title={textContent.resume.workExperience.title}
+          title={textContent.resume.selfLearning.title}
           iconPrefix="fas"
-          iconName="briefcase"
+          iconName="laptop-code"
         />
       </div>
       <div className="resume-left-side-item-lg">
