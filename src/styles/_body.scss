@@ -1,5 +1,6 @@
 .main-section,
-.portfolio-section {
+.portfolio-section,
+.resume-section {
     height: $default-body-height;
     margin-top: $default-nav-height;
     margin-bottom: $default-footer-height;
@@ -12,7 +13,8 @@
     background-size: cover;
 }
 
-.portfolio-section {
+.portfolio-section,
+.resume-section {
     display: flex;
     justify-content: center;
     align-items: center;
