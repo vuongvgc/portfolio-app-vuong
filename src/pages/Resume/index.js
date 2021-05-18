@@ -5,8 +5,7 @@ export default class Resume extends Component {
   render() {
     return (
       <div className="resume-section">
-//         <ResumeTextSection />
-      TEST
+        <ResumeTextSection />
       </div>
     );
   }
