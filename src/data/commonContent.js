@@ -2,7 +2,7 @@ const commonContent = {
   portfolio: {
     movieTicket: {
       imagePreview:
-        "https://github.com/vuongvgc/portfolio-app-vuong/blob/master/src/images/portfolio-preview/movie.PNG?raw=true",
+        "https://github.com/vuongvgc/portfolio-app-vuong/blob/master/src/images/portfolio-preview/movieTicket.PNG?raw=true",
       links: {
         liveProject: "https://movie-app-project.vercel.app/",
         codeSource: "https://github.com/vuongvgc/Movie-app-project",
