@@ -1,0 +1,104 @@
+@import "variables";
+
+// MEDIA QUERIES PORTRAIT
+// TABLET BIG
+@media (orientation: portrait) and (max-width: 1024px) {
+    .project-tile {
+        font-size: $font-size-xs;
+    }
+
+    .navbar {
+        height: $small-nav-height;
+    }
+
+    .footer {
+        height: $small-footer-height;
+    }
+
+    .main-section,
+    .portfolio-section,
+    .resume-section {
+        height: $small-body-height;
+        margin-top: $small-nav-height;
+        margin-bottom: $small-footer-height;
+    }
+}
+
+// TABLET MEDIUM
+@media (orientation: portrait) and (max-width: 770px) {
+    .navbar {
+        height: $medium-nav-height;
+    }
+
+    .footer {
+        height: $medium-footer-height;
+    }
+
+    .main-section,
+    .portfolio-section,
+    .resume-section {
+        height: $medium-body-height;
+        margin-top: $medium-nav-height;
+        margin-bottom: $medium-footer-height;
+    }
+
+    .resume-left-side-item,
+    .resume-left-side-item-sm,
+    .resume-left-side-item-lg {
+        padding: 10px 10px 30px 10px;
+    }
+
+    .resume-right-side-item,
+    .resume-right-side-item-sm,
+    .resume-right-side-item-lg {
+        padding: 5px 10px 30px 10px;
+    }
+}
+
+// MOBILE PORTRAIT
+@media (orientation: portrait) and (max-width: 580px) {
+    .toggle-box {
+        font-size: $font-size-sm;
+    }
+
+    .navbar {
+        height: $large-nav-height;
+    }
+
+    .footer {
+        height: $large-footer-height;
+    }
+
+    .main-section,
+    .portfolio-section,
+    .resume-section {
+        height: $large-body-height;
+        margin-top: $large-nav-height;
+        margin-bottom: $large-footer-height;
+    }
+
+    .nav-big-screens {
+        display: none;
+    }
+
+    .nav-small-screens {
+        display: inline-block;
+    }
+
+    .social-media-icons-landscape {
+        display: none;
+    }
+
+    .hero-content-container {
+        width: 90%;
+        max-width: 600px;
+    }
+
+    .resume-left-side-item,
+    .resume-left-side-item-sm,
+    .resume-left-side-item-lg {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
