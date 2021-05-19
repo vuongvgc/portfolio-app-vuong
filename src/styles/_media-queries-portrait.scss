@@ -56,7 +56,7 @@
 }
 
 // MOBILE PORTRAIT
-@media (orientation: portrait) and (max-width: 500px) {
+@media (orientation: portrait) and (max-width: 580px) {
     .toggle-box {
         font-size: $font-size-sm;
     }
