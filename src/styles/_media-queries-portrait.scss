@@ -1,6 +1,7 @@
 @import "variables";
 
 // MEDIA QUERIES PORTRAIT
+// TABLET BIG
 @media (orientation: portrait) and (max-width: 1024px) {
     .project-tile {
         font-size: $font-size-xs;
@@ -23,6 +24,7 @@
     }
 }
 
+// TABLET MEDIUM
 @media (orientation: portrait) and (max-width: 770px) {
     .navbar {
         height: $medium-nav-height;
@@ -53,7 +55,8 @@
     }
 }
 
-@media (orientation: portrait) and (max-width: 400px) {
+// MOBILE PORTRAIT
+@media (orientation: portrait) and (max-width: 500px) {
     .toggle-box {
         font-size: $font-size-sm;
     }
