@@ -33,7 +33,7 @@ export default function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Resume} />
-          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/resume" component={Portfolio} />
         </Switch>
         <Footer />
       </Context.Provider>
