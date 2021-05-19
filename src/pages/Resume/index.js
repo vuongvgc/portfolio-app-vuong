@@ -6,7 +6,7 @@ export default class Resume extends Component {
     return (
       <div className="resume-section">
         {/* <ResumeTextSection /> */}
-        Resume Section
+        <h1>Deploy Section</h1>
       </div>
     );
   }
