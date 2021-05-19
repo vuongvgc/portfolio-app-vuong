@@ -11,7 +11,7 @@ export default function ResumeButton() {
       className="button navlink button-download-resume"
     >
       <FontAwesomeIcon icon={["fas", "cloud-download-alt"]} />{" "}
-      {textContent.navigation.resume}
+      <span className="text-resume">{textContent.navigation.resume}</span>
     </a>
   );
 }
