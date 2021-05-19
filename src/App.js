@@ -32,8 +32,8 @@ export default function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/portfolio" component={Resume} />
-          <Route exact path="/resume" component={Portfolio} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/resume" component={Resume} />
         </Switch>
         <Footer />
       </Context.Provider>
