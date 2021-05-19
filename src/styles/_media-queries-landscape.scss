@@ -1,23 +1,5 @@
 @import "variables";
 
-@media (min-height: 570px) {
-    .navbar {
-        height: $default-nav-height;
-    }
-
-    .footer {
-        height: $default-footer-height;
-    }
-
-    .main-section,
-    .portfolio-section,
-    .resume-section {
-        height: $default-body-height;
-        margin-top: $default-nav-height;
-        margin-bottom: $default-footer-height;
-    }
-}
-
 @media (orientation: landscape) and (min-height: 320px) {
     .hero-content-container {
         max-height: 75vh;
@@ -43,7 +25,7 @@
     }
 }
 
-@media (orientation: landscape) and (min-height: 760px) {
+@media (orientation: landscape) and (min-height: 500px) {
     .navbar {
         height: $default-nav-height;
     }
@@ -74,13 +56,12 @@
     }
 
     .main-section,
-    .portfolio-section {
+    .portfolio-section,
+    .resume-section {
         height: $large-body-height;
         margin-top: $large-nav-height;
         margin-bottom: $large-footer-height;
     }
 
-    .resume-section {
-        height: $large-body-height;
-    }
+
 }

@@ -27,19 +27,19 @@
 // TABLET MEDIUM
 @media (orientation: portrait) and (max-width: 770px) {
     .navbar {
-        height: $medium-nav-height;
+        height: $large-nav-height;
     }
 
     .footer {
-        height: $medium-footer-height;
+        height: $large-footer-height;
     }
 
     .main-section,
     .portfolio-section,
     .resume-section {
-        height: $medium-body-height;
-        margin-top: $medium-nav-height;
-        margin-bottom: $medium-footer-height;
+        height: $large-body-height;
+        margin-top: $large-nav-height;
+        margin-bottom: $large-footer-height;
     }
 
     .resume-left-side-item,
@@ -56,7 +56,7 @@
 }
 
 // MOBILE PORTRAIT
-@media (orientation: portrait) and (max-width: 580px) {
+@media (orientation: portrait) and (max-width: 620px) {
     .toggle-box {
         font-size: $font-size-sm;
     }
@@ -83,6 +83,10 @@
 
     .nav-small-screens {
         display: inline-block;
+    }
+
+    .text-resume {
+        display: none;
     }
 
     .social-media-icons-landscape {
