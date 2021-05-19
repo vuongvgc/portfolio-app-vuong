@@ -1,5 +1,5 @@
 import Context from "../../context";
-import { useContext } from "react/cjs/react.development";
+import { useContext } from "react";
 export default function ButtonOutline({ title, icon, isCV }) {
   const { textContent, FontAwesomeIcon } = useContext(Context);
   return (
