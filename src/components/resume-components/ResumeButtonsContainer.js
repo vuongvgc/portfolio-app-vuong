@@ -1,6 +1,6 @@
 import ButtonOutline from "../buttons/ButtonOutline";
 import Context from "../../context";
-import { useContext } from "react/cjs/react.development";
+import { useContext } from "react";
 export default function ResumeButtonsContainer() {
   const { textContent } = useContext(Context);
   return (
