@@ -3,9 +3,8 @@ import addCommonParameters from "../helpers/addCommonParameters";
 
 const englishText = {
   downloads: {
-    resume:
-      "https://github.com/vuongvgc/portfolio-app-vuong/blob/master/src/static/Resume_Do_Minh_Vuong.pdf",
-    cv: "https://github.com/vuongvgc",
+    resume: "https://i.topcv.vn/dominhvuong?ref=4101582",
+    cv: "https://i.topcv.vn/dominhvuong?ref=4101582",
   },
   navigation: {
     home: "Home",

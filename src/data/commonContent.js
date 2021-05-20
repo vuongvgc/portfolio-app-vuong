@@ -124,7 +124,7 @@ const commonContent = {
       imagePreview:
         "https://github.com/vuongvgc/portfolio-app-vuong/blob/master/src/images/portfolio-preview/portfolio.PNG?raw=true",
       links: {
-        liveProject: "https://github.com/vuongvgc",
+        liveProject: "https://portfolio-app-vuong.vercel.app/",
         codeSource: "https://github.com/vuongvgc/portfolio-app-vuong",
       },
     },
