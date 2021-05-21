@@ -4,7 +4,7 @@ export default function PageNotFound() {
       <div class="page-not-found-box">
         <div class="page-not-found-image">
           <img
-            src="https://www.artzstudio.com/wp-content/uploads/2020/05/404-error-not-found-page-lost-1024x788.png"
+            src="https://github.com/vuongvgc/portfolio-app-vuong/blob/master/src/images/404-error-not-found-page-lost.png?raw=true"
             alt="Page Not Found"
           />
         </div>
