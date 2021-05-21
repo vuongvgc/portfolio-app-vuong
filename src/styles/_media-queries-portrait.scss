@@ -17,7 +17,8 @@
 
     .main-section,
     .portfolio-section,
-    .resume-section {
+    .resume-section,
+    .page-not-found-section {
         height: $small-body-height;
         margin-top: $small-nav-height;
         margin-bottom: $small-footer-height;
@@ -36,7 +37,8 @@
 
     .main-section,
     .portfolio-section,
-    .resume-section {
+    .resume-section,
+    .page-not-found-section {
         height: $large-body-height;
         margin-top: $large-nav-height;
         margin-bottom: $large-footer-height;

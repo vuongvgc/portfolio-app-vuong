@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
+import PageNotFound from "./pages/NotFound";
 
 import Navbar from "./components/navbar-components/Navbar";
 import Footer from "./components/footer-components/Footer";
@@ -34,6 +35,7 @@ export default function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/resume" component={Resume} />
+          <Route path="*" component={PageNotFound} />
         </Switch>
         <Footer />
       </Context.Provider>
