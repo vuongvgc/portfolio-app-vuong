@@ -29,6 +29,14 @@
 .hero-description-text {
     font-size: $font-size-xl;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.hero-description-sub {
+    font-size: $font-size-sm;
+    letter-spacing: 1px;
+    text-align: center;
+
 }
 
 .hero-tech-stack-section {

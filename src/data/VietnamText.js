@@ -12,8 +12,8 @@ let vietnamText = {
     resume: "Sơ yếu lý lịch",
   },
   home: {
-    description:
-      "Xin Chào! Tôi là Đỗ Minh Vương và tôi là Nhà phát triển Web Front-End.",
+    description: "Xin Chào! Tôi là Đỗ Minh Vương",
+    sub: "Tôi là một nhà phát triển web front-end tự học đầy tham vọng. Tôi có óc tò mò và luôn quan tâm đến việc tìm hiểu các công nghệ mới và nâng cao kiến ​​thức của mình trong ngăn xếp công nghệ hiện tại của mình. Tôi đang tìm một công việc mới và bạn có thể xem thông tin của tôi ở đây.",
   },
   portfolio: [
     { key: "movieTicket", title: "Đặc Vé Xem Phim" },

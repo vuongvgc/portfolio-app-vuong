@@ -11,6 +11,7 @@ import {
   faBriefcase,
   faFileCode,
   faCommentDots,
+  faPhoneAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
@@ -59,5 +60,6 @@ library.add(
   faGithub,
   faCodepen,
   faFreeCodeCamp,
-  faFacebook
+  faFacebook,
+  faPhoneAlt
 );

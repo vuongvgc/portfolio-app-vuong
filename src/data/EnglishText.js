@@ -12,8 +12,8 @@ const englishText = {
     resume: "Resume",
   },
   home: {
-    description:
-      "Hi! My name is Do Minh Vuong and I am a Front-End Web Developer.",
+    description: "Hi! My name is Do Minh Vuong",
+    sub: "I am an aspiring self-taught front-end web developer.  I have a curious and always interested in learning new technologies and advancing my knowledge in my current tech stack. I looking for a new job and you can see my information is this page",
   },
   portfolio: [
     { key: "movieTicket", title: "Movie Ticket" },
