@@ -3,6 +3,12 @@ import SocialMediaIcon from "./SocialMediaIcon";
 export default function SocialMediaIcons(props) {
   const socialMediaIconsInfo = [
     {
+      href: "tel:+84789200396",
+      extraClass: "",
+      iconPrefix: "fas",
+      iconName: "phone-alt",
+    },
+    {
       href: "mailto:vuongvgc@gmail.com",
       extraClass: "",
       iconPrefix: "far",
