@@ -3,8 +3,8 @@ import addCommonParameters from "../helpers/addCommonParameters";
 
 let vietnamText = {
   downloads: {
-    resume: "https://i.topcv.vn/dominhvuong?ref=3427631",
-    cv: "https://i.topcv.vn/dominhvuong?ref=4101582",
+    resume: "https://i.topcv.vn/dominhvuong?ref=4280928",
+    cv: "https://i.topcv.vn/dominhvuong?ref=4280928",
   },
   navigation: {
     home: "Trang Chủ",
