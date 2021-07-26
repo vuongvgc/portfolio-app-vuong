@@ -9,7 +9,7 @@ export default function SocialMediaIcons(props) {
       iconName: "phone-alt",
     },
     {
-      href: "mailto:vuongvgc@gmail.com",
+      href: "mailto:vuongdodep@gmail.com",
       extraClass: "",
       iconPrefix: "far",
       iconName: "envelope",
@@ -32,12 +32,12 @@ export default function SocialMediaIcons(props) {
       iconPrefix: "fab",
       iconName: "github",
     },
-    {
-      href: "https://codepen.io/Crisvuong",
-      extraClass: "hide-sm-screen",
-      iconPrefix: "fab",
-      iconName: "codepen",
-    },
+    // {
+    //   href: "https://codepen.io/Crisvuong",
+    //   extraClass: "hide-sm-screen",
+    //   iconPrefix: "fab",
+    //   iconName: "codepen",
+    // },
     {
       href: "https://www.freecodecamp.org/vuongvgc",
       extraClass: "hide-sm-screen",

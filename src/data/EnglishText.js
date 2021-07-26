@@ -60,7 +60,7 @@ const englishText = {
         "Sass (SCSS)",
         "JavaScript",
         "React",
-        "Angular",
+        "TypeScript",
         "Material UI",
         "BEM",
         "Responsive Web",
