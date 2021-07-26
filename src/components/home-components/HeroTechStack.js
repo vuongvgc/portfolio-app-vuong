@@ -28,8 +28,8 @@ export default function HeroTechStack() {
       iconName: "js",
     },
     {
-      title: "Angular",
-      iconName: "angular",
+      title: "Node JS",
+      iconName: "node-js",
     },
     {
       title: "Git",

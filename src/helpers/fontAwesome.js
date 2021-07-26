@@ -32,6 +32,7 @@ import {
   faFreeCodeCamp,
   faFacebook,
   faAngular,
+  faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
 
 library.add(
@@ -49,6 +50,7 @@ library.add(
   faJs,
   faReact,
   faAngular,
+  faNodeJs,
   faHtml5,
   faCss3Alt,
   faSass,
