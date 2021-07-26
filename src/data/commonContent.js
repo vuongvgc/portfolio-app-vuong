@@ -8,6 +8,30 @@ const commonContent = {
         codeSource: "https://github.com/vuongvgc/Movie-app-project",
       },
     },
+    foodShop: {
+      imagePreview:
+        "https://raw.githubusercontent.com/vuongvgc/portfolio-app-vuong/master/src/images/portfolio-preview/food-shop.PNG",
+      links: {
+        liveProject: "https://food-shop-kappa.vercel.app/",
+        codeSource: "https://github.com/vuongvgc/food-shop.git",
+      },
+    },
+    npmSearch: {
+      imagePreview:
+        "https://raw.githubusercontent.com/vuongvgc/portfolio-app-vuong/master/src/images/portfolio-preview/npm-search.PNG",
+      links: {
+        liveProject: "https://clone-ceo-dog.vercel.app/",
+        codeSource: "https://github.com/vuongvgc/npm-search.git",
+      },
+    },
+    ceoDog: {
+      imagePreview:
+        "https://raw.githubusercontent.com/vuongvgc/portfolio-app-vuong/master/src/images/portfolio-preview/ceo-dog.PNG",
+      links: {
+        liveProject: "https://food-shop-kappa.vercel.app/",
+        codeSource: "https://github.com/vuongvgc/npm-search.git",
+      },
+    },
     fordCars: {
       imagePreview:
         "https://github.com/vuongvgc/portfolio-app-vuong/blob/master/src/images/portfolio-preview/ford.PNG?raw=true",

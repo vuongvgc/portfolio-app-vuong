@@ -17,7 +17,10 @@ let vietnamText = {
   },
   portfolio: [
     { key: "movieTicket", title: "Đặc Vé Xem Phim" },
+    { key: "npmSearch", title: "NPM Search" },
     { key: "fordCars", title: "Ford Ôtô" },
+    { key: "ceoDog", title: "CEO Dog" },
+    { key: "foodShop", title: "Food Shop" },
     { key: "udemyElearning", title: "Udemy E-learning" },
     { key: "uberPayment", title: "Tính Cước Uber" },
     { key: "staffManagement", title: "Quản Lý Nhân Viên" },
