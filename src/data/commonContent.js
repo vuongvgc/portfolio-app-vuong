@@ -20,7 +20,7 @@ const commonContent = {
       imagePreview:
         "https://raw.githubusercontent.com/vuongvgc/portfolio-app-vuong/master/src/images/portfolio-preview/npm-search.PNG",
       links: {
-        liveProject: "https://clone-ceo-dog.vercel.app/",
+        liveProject: "https://npm-search.vercel.app/",
         codeSource: "https://github.com/vuongvgc/npm-search.git",
       },
     },
